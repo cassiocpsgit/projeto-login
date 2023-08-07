@@ -67,6 +67,7 @@ div#formulario > p {
 }
 
 form > div.campo {
+    padding-left: 5px;
     background-color: #5f2c82;
     display: block;
     width: 100%;
@@ -77,6 +78,10 @@ form > div.campo {
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    
 }
 
 form > input[type=submit] {
